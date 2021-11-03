@@ -1,0 +1,152 @@
+body{
+    height: 100vh;
+    background-color: rgba(104, 103, 103, 0.014);
+}
+
+img{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*****************NAV BAR***************/
+
+.nav-item-img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-item-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid mediumblue;
+    transition: 0.2s;
+}
+
+/***********LEFT COLUMN**************/
+
+#left-column{
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+
+.action-img{
+    width: 28px;
+    height: 28px;
+}
+
+.action-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+/***************CENTER COLUMN*****************/
+
+#center-column{
+    background-color: rgba(128, 128, 128, 0.123);
+}
+
+.container-img-top{
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.container-img-top img{
+    width: 15%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.post-top-img{
+    width: 40px;
+    height: 40px;
+}
+
+.post-top-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.contact-salon-img{
+    width: 40px;
+    height: 40px;
+    margin : 0 5px;
+    position: relative;
+}
+
+.contact-salon-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.contact-salon-img .color-green{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(16, 201, 16);
+    border-radius: 50px;
+    display: inline-block;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.card-title-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.card-title-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-footer p{
+    cursor: pointer;
+}
+
+/***********RIGHT COLUMN************************/
+
+#right-column{
+    background-color: rgba(128, 128, 128, 0.123);
+}
+
+
+.contact-item-element{
+    width: 20px;
+    height: 20px;
+    margin : 0 5px;
+}
+.contact-item-element img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width : 768px){
+    #left-column{
+        display:none;
+    }
+}
